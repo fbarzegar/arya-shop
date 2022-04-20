@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile center</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/plugins/flickity/flickity.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/fonts/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">آریا شاپ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">درباره ما</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            تماس با ما
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="support.html">آدرس و تلفن دفتر مرکزی</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">صدور مجوزها</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">شعب و دفاتر</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">ثبت شکایات</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            قوانین و مقررات
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">قوانین و مقررات نظام صنفی کشور</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">قوانین و مقررات شرکت آریا شاپ</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">منشور اخلاقی</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">سیاست ها و حریم خصوصی</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">ارسال کالا</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">لغو جایگاه</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">گالری تصاویر</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            طرح درآمدی
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">شاخه ای(درختی)</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">ام ال ام</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">تک سطحی</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">اخبار شرکت</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">سوالات متداول</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ثبت نارضایتی
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">ثبت نارضایتی بازاریاب از شرکت</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">ثبت نارضایتی مشتری از شرکت</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">ثبت نارضایتی شرکت از شرکت</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">ثبت نارضایتی مشتری از بازاریاب</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">پیگیری نارضایتی ثبت شده</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="fa fa-user"></i>ورود</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="fa fa-pen"></i>ثبت نام</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="fa fa-shopping-cart"></i>فروشگاه</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="pic-top-header">
+            <div class="container-fluid parent" style="background-image: url('assets/images/pictopheader.jpg');">
+                <div class="explore">
+                    <h3>قوانین نظام صنفی کشور</h3>
+                    <h1>آریا شاپ</h1>
+                    <div class="bottom-link">
+                        <a href="#slider">
+                            <i class="fa fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rules">
+            <div class="container text-center">
+                <h2 class="fs-3 mt-4 py-3 text-qnet-orange">آیین نامه اجرایی چگونگی صدورمجوزونحوه نظارت
+                    برفعالیت افراد صنفی در فضای مجازی و بازاریابی شبکه ای</h2>
+
+                <div class="row">
+                    <div class="col-12 pb-5 text-right">
+                        <h4 class="fs-4">ماده1-تعاریف:</h4>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">کسب و کارمجازی</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                واحد صنفی است که توسط هر شخص حقیقی و یا حقوقی برای ارائه
+محصول (کالا و یا خدمات) به طور مستقیم و یا غیر مستقیم و به صورت کلی یا جزئی به عمده
+فروشان، خرده فروشان و مصرفکنندگان از طریق ابزارهای ارتباط از راه دوراز قبیل وب سایت
+ونرم افزارهای تجاری(اپلیکیشن)دایر شده باشد
+                            </p>
+                            <div class="sub-title ps-3">
+                                <div class="item py-3">
+                                    <div class="title">
+                                       <strong class="fs-5">ماده ۲-</strong> 
+                                    </div>
+                                    <p class="lh-lg pt-2">
+                                        دبیرخانه هیات عالی نظارت و مرکزتوسعه تجارت الکترونیکی موظفند ضمن اتصال
+سامانه های خود بدون نیاز به اخذ مدرک مجدد(مطابق ماده (3) این آیین نامه)،امکان دسترسی
+طرفین به مدارک متقاضی و صدور همزمان پروانه کسب و نماد اعتماد الکترونیکی را فراهم نمایند
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <div class="item py-3">
+                                    <div class="title">
+                                       <strong class="fs-5">ماده3-مراحل صدور پروانه کسب</strong> 
+                                    </div>
+                                    <p class="lh-lg pt-2">
+                                        <ol class="ps-3">
+                                            <li class="lh-lg">
+                                                راه اندازی کسب وکارمجازی توسط متقاضی مطابق چک لیستهای مرکزتوسعه تجارت الکترونیکی
+                                            </li>
+                                            <li class="lh-lg">
+                                                ثبت تقاضا توسط متقاضی در سامانه اینماد(ارجاع تقاضای کسب وکار مشمول قانون نظام صنفی
+توسط مرکز توسعه تجارت الکترونیکی بلافاصله پس از ارزیابی وبراساس فهرست مرکز اصناف و
+بازرگانان ایران به سامانه اصناف)
+                                            </li>
+                                            <li class="lh-lg">
+                                                بارگذاری مدارک مندرج در ماده (4) این آییننامه توسط متقاضی در سامانه اصناف حداکثر ظرف
+مدت سه ماه پس از قبول تقاضا
+                                            </li>
+                                            <li class="lh-lg">
+                                                تکمیل پرونده مطابق ماده(4)این آییننامه توسط اتحادیه
+                                                <p><strong>تبصره- </strong>اتحادیه موظف است به طور همزمان از دستگاه های طرف استعلام مندرج در ماده(4) این
+                                                    آییننامه استعلام نماید</p>
+                                            </li>
+                                            <li class="lh-lg">
+                                                صدور وتسلیم پروانه کسب(پس از تطبیق مدارک بارگذاری شده با اصل آن) به متقاضی حداکثر
+ظرف پانزده روز و ارسال مشخصات پروانه کسب به سامانه اینماد.
+                                            </li>
+                                            <li class="lh-lg">
+                                                اعطای نماد اعتماد الکترونیکی همزمان باصدور پروانه کسب
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <div class="item py-3">
+                                    <div class="title">
+                                       <strong class="fs-5">ماده4-مدارک لازم برای صدور پروانه کسب</strong> 
+                                    </div>
+                                    <p class="lh-lg pt-2">
+                                        <strong>
+                                            الف)-عمومی
+                                        </strong>
+                                        <ol class="ps-3">
+                                            <li class="lh-lg">
+                                                ارائه نشانی دفتر کار یا اقامتگاه قانونی متقاضی
+                                            </li>
+                                            <li class="lh-lg">
+                                                گواهی صلاحیت شخصی ازنیروی انتظامی
+                                            </li>
+                                            <li class="lh-lg">
+                                                گواهی اداره امور مالیاتی ذیربط مبنی بر پرداخت یا ترتیب پرداخت بدهی مالیات قطعی
+شده(موضوع ماده(276)قانون مالیاتهای مستقیم)
+                                            </li>
+                                            <li class="lh-lg">
+                                                گواهی گذراندن دوره های آموزشی احکام تجارت و کسب وکار (موضوع بند(ن)ماده(35)قانون
+نظام صنفی)
+                                            </li>
+                                            <li class="lh-lg">
+                                                تاییدیه ویژگی های تخصصی کسب و کار مجازی توسط مرکز توسعه تجارت الکترونیکی براساس
+                                                قانون تجارت الکترونیکی وماده(3)اساسنامه مرکز توسعه تجارت الکترونیکی
+                                                <p><strong>تبصره- </strong>دارندگان پروانه کسب در فضای حقیقی که متقاضی فروش محصولات واحد صنفی
+                                                    خود از طریق فضای مجازی نیز می باشند،برای دریافت پروانه کسب و کار مجازی و اینماد صرفا مکلف به ارائه این تاییدیه میباشند</p>
+                                            </li>
+                                            <li class="lh-lg">
+                                                تصویر کارت ملی برای اشخاص حقیقی و شناسه ملی برای اشخاص حقوقی ویا گذرنامه و پروانه کار
+برای اتباع خارجی.
+                                            </li>
+                                            <li class="lh-lg">
+                                                تصویر کارت پایان خدمت نظام وظیفه یا معافیت دائم یا پزشکی برایآقایان کمتر از پنجاه سال
+سنیا گواهی اشتغال به تحصیل
+                                            </li>
+                                        </ol>
+                                        <strong class="mt-3 d-block">
+                                            ب)-اختصاصی
+                                        </strong>
+                                        <ol class="ps-3">
+                                            <li class="lh-lg">
+                                                پروانه تخصصی و فنی یا دیپلم فنی یا مدارک تحصیلی دانشگاهی مرتبط، یا معرفی یک نفر واجد
+شرایط مذکور (برای صنوف مشمول تبصره ماده(23)قانون نظام صنفی)
+                                            </li>
+                                            <li class="lh-lg">
+                                                مصوبه هیات مدیره برای صدور پروانه کسب به نام مدیر عامل یا یکی ازصاحبان امضاءمطابق
+اساسنامه و آخرین آگهی روزنامه رسمی ثبت شرکت(برای اشخاص حقوقی)
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <div class="item py-3">
+                                    <div class="title">
+                                       <strong class="fs-5">ماده5-عناوین تخلفات و نحوهبرخوردبا مرتکبین آن</strong> 
+                                    </div>
+                                    <p class="lh-lg pt-2">
+                                        مجازات های بندهای (الف)، (ب) این ماده درصورت ارتکاب هر یک از تخلفات ذیل آن، از سوی کمیته
+نظارت اعمال میگردد
+                                        <strong  class="mt-3 d-block">الف)-اخطار کتبی</strong>
+                                        <ol class="ps-3">
+                                            <li class="lh-lg">
+                                                عدم ارائه اطلاعات موثر در تصمیم گیری مصرف کننده جهت خرید یا قبول شرایط
+                                            </li>
+                                            <li class="lh-lg">
+                                                عدم رعایت حق انصراف مصرف کننده.
+                                            </li>
+                                            <li class="lh-lg">
+                                                عدم استفاده از واسط بادوام جهت ذخیره اطلاعات مرتبط با معاملات
+                                            </li>
+                                            <li class="lh-lg">
+                                                تحمیل شروط غیر منصفانه به مصرف کننده
+                                            </li>
+                                            <li class="lh-lg">
+                                                تبلیغ خلاف واقع
+                                            </li>
+                                            <li class="lh-lg">
+                                                عدم تحویل به موقع کالا یا ارائه خدمت
+                                            </li>
+                                            <li class="lh-lg">
+                                                عدم پاسخگویی به نارضایتی مصرف کننده)حداکثر ظرف مدت سه روزکاری)
+                                            </li>
+                                            <li class="lh-lg">
+                                                عدم درج و یا اعلام نحوه تامین کالا.
+                                            </li>
+                                            <li class="lh-lg">
+                                                عدم رعایت قانون و مقررات صنفی و مصوبات کمیته نظارت
+                                                <p><strong>تبصره- </strong>پس از ابلاغ اخطار،دارنده پروانه کسب و کار مجازی موظف است ظرف مدت ده روز نسبت
+                                                    به اصلاح عملکردخوداقدام نماید. درصورت عدم اصلاح نسبت به تعلیق فعالیت وی برابر بند(ب)
+                                                    اینمادهاقدام میشود</p>
+                                            </li>
+                                        </ol>
+                                        <strong class="mt-3 d-block">ب)-تعلیق فعالیت و نماد</strong>
+                                        <ol class="ps-3">
+                                            <li class="lh-lg">
+                                                عدم تامین کالا و یا ارائه خدمت( با رعایت ماده (39) قانون تجارت الکترونیکی).
+                                            </li>
+                                            <li class="lh-lg">
+                                                نقض حفاظت از داده های مصرف کننده.
+                                            </li>
+                                            <li class="lh-lg">
+                                                عرضه کالای غیر مجاز.
+                                            </li>
+                                            <li class="lh-lg">
+                                                تکرار ویاتعددتخلفات مندرج در بند(الف)بیش از(3)مورد در طول یک سال.
+                                                <p><strong>تبصره1-</strong>در زمان تعلیق،دارنده پروانه کسب حق ایجاد تعهدات جدید را نخواهد داشت،درصورتی
+                                                    که بعد از گذشت یک ماه از دوره تعلیق، دارنده پروانه کسب نسبت به اصلاح عملکرد و تطبیق آن با
+                                                    مقررات اقدام کند،تعلیق خاتمه می یابد</p>
+                                                <p><strong>تبصره2-</strong>در صورت تکرار و یا تعددتخلفات این بند حداقل مدت تعلیق فعالیت سه ماه خواهد بود،
+                                                    پس از اصلاح عملکرد و گذشت مدت مذکور تعلیق خاتمه مییابد</p>
+                                            </li>
+                                        </ol>
+                                    </p>
+                                </div>
+                                <div class="item py-3">
+                                    <strong class="fs-5">ماده6-</strong>هرگونه تغییر درفرایند کسب و کار مجازی صرفا ً با رعایت مقررات این آیین نامه مجاز
+                                    است
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">بازاریابی شبکه ای</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                یک روش فروش محصول است که شرکت بازاریابی شبکه ای از طریق
+وب سایت خودافرادی را به عنوان بازاریاب به دور از مکان ثابت کسب برای فروش مستقیم
+محصولات خود به مصرف کننده سازمان دهی میکند، به نحوی که هر بازاریاب میتواندبا معرفی
+بازاریاب دیگر به عنوان زیر مجموعه خود با ایجاد گروه فروش چندسطحی موجب گسترش و
+افزایش فروش گردد
+                            </p>
+                            <div class="sub-title ps-3">
+                                <div class="item py-3">
+                                    <strong>ماده7-مراحل صدور پروانه کسب</strong>
+                                    <ol class="ps-3">
+                                        <li class="lh-lg">
+                                            ثبت تقاضا توسط متقاضی در سامانه اصناف
+                                        </li>
+                                        <li class="lh-lg">
+                                            بررسی صلاحیت شخصی (اعضای هیات مدیره، سهامداران عمده و مدیرعامل پیشنهادی) انتظامی
+و ترافیکی دفتر شرکت توسط نیروی انتظامی و ارائه پاسخ حداکثر ظرف مدت پانزده روز
+                                        </li>
+                                        <li class="lh-lg">
+                                            بررسی طرح سوددهی توسط دبیرخانه کمیته نظارت(حداکثر ظرف مدت پانزده روز).
+                                        </li>
+                                        <li class="lh-lg">
+                                            شبکه بازاریابی موضوع با خاص سهامی صورت به شرکت ثبت معرفی با اینامه
+دبیرخانه کمیته نظارت
+                                            <p><strong>تبصره-</strong>متقاضی موظف است حداکثر ظرف مدت سه ماه از تاریخ معرفی نامه مذکور شرکت خود 6
+                                                را نزد مرجع ثبت شرکتها ثبت و نسبت به بارگذاری روزنامه رسمی در سامانه اصناف اقدام نماید در
+                                                غیر اینصورت متقاضی جدید محسوب میگردد</p>
+                                        </li>
+                                        <li class="lh-lg">
+                                            راه اندازی وب سایت توسط متقاضی مطابق چک لیست کمیته نظارت.
+                                        </li>
+                                        <li class="lh-lg">
+                                            صدور و تسلیم پروانه کسب (پس از تکمیل پرونده و تطبیق مدارک بارگذاری شده با اصل آن) به
+متقاضی حداکثر ظرف پانزده روز توسط اتحادیه
+                                        </li>
+                                        <li class="lh-lg">
+                                            اعطای نماد بازاریابی شبکه ای همزمان با صدور پروانه کسب
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <div class="item py-3">
+                                    <strong>ماده8-مدارک لازم برای صدور پروانه کسب</strong>
+                                    <ol class="ps-3">
+                                        <li class="lh-lg">
+                                            سند مالکیت یا اجاره نامه دفتر شرکت
+                                        </li>
+                                        <li class="lh-lg">
+                                            تاییدیه طرح سوددهی توسط دبیرخانه کمیته نظارت.
+                                        </li>
+                                        <li class="lh-lg">
+                                            مصوبه هیات مدیره برای صدور پروانه کسب به نام مدیر عامل یا یکی ازصاحبان امضاءمطابق
+اساسنامه و روزنامه رسمی ثبت شرکت با آخرین تغییرات
+                                        </li>
+                                        <li class="lh-lg">
+                                            گواهی صلاحیت شخصی(اعضای هیات مدیره و مدیر عامل پیشنهادی)، انتظامی و ترافیکی دفتر
+شرکت از طریق نیروی انتظامی
+                                        </li>
+                                        <li class="lh-lg">
+                                            دارا بودن شرایط و مدارک بندهای(3(،)4،)(6)و(8) ردیف(الف) ماده(4) این آییننامه
+                                        </li>
+                                        <li class="lh-lg">
+                                            داشتن واحد تولیدی به نام شرکت و ارائه پروانه بهره برداری آن
+                                        </li>
+                                    </ol>
+                                    <p>
+                                        <strong>تبصره-</strong>
+                                        پروانه کسب شرکت بازاریابی شبکه ای با ارائه مدارک فوق به نام شرکت و با ذکر نام مدیرعامل
+یا یکی ازصاحبان امضاءبه آدرس دفتر ونشانی وب سایت شرکت صادر میشود
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <strong class="d-block py-3">
+                                    ماده9-درطرح سوددهی باید موارد زیر رعایت شود
+                                </strong>
+                                <ol class="ps-3">
+                                    <li class="lh-lg">
+                                        اخذ هرگونه وجه و یا ما به ازاء برای ورود به شرکت بازاریابی شبکه ای ممنوع است
+                                    </li>
+                                    <li class="lh-lg">
+                                        حداقل میزان خرید ماهیانه بازاریاب برای واجد شرایط شدن دریافت حق کمیسیون و پاداش
+تعیین گردد
+                                    </li>
+                                    <li class="lh-lg">
+                                        پرداخت هرگونه حق کمیسیون و پاداش باید بر پایه فروش محصول شرکت ونه جذب بازاریاب
+باشد و هرگونه پرداخت ناشی از فروش ابزارهای جانبی شرکت از جمله کالاهای نمونه فروش، ابزارهای
+فروش، تبلیغ و آموزش ممنوع است
+                                    </li>
+                                    <li class="lh-lg">
+                                        پرداخت حق کمیسیون و پاداش با توجه به شرح وظایف بازاریاب هاتا(3) سطح محدود گردد.
+( سطوح پرداخت باتایید وزارت صنعت، معدن و تجارت قابل تعدیل است)
+                                    </li>
+                                    <li class="lh-lg">
+                                        تجمیع حجم فروش بازاریاب و گروه فروش باید به صورت ماهیانه(حداکثر تاهفت روزپس از
+خاتمه هر ماه)محاسبه شود
+                                    </li>
+                                    <li class="lh-lg">
+                                        پرداخت حق کمیسیون یا پاداش بازاریابان باید بصورت نقدی و غیر از محصولات شرکت باشد
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <strong>ماده11-شرکت بازاریابی شبکه ای موظف است نسبت به رعایت ضوابط زیر اقدام نماید</strong>
+                                <ol class="ps-3">
+                                    <li class="lh-lg">
+                                        فروش محصولات مصرفی مطابق فهرست ارائه شده و با رعایت ضوابط و قیمت فروش متعارف
+بازار
+                                        <p><strong>تبصره-</strong>شرکت موظف است قیمت و مجوزهای لازم برای محصولات خود از جمله پروانه بهداشتی
+                                            و استاندارد را طبق مقرراتاخذ نماید و در هر حال قیمت محصول نباید از قیمت متعارف بازار بالاتر
+                                            باشد</p>
+                                    </li>
+                                    <li class="lh-lg">
+                                        انعقاد قرارداد با بازاریابان از طریق وب سایت شرکت و همچنین صدور وارائه کارت شناسایی
+عکس دار ممهور به مهر شرکت مشتمل بر نام و نام خانوادگی، نام پدر، کد ملی، کد واحد بازاریابی
+شبکه ای، شناسه بازاریاب و نام شرکت
+                                        <p><strong>تبصره-</strong>اتصال وب سایت شرکت بازاریابی شبکه ای به سامانه وزارت صنعت، معدن و تجارت
+                                            (به نشانی:unicode.mimt.gov.ir)برای نظارت برپایگاه داده شرکت الزامی است</p>
+                                    </li>
+                                    <li class="lh-lg">
+                                        عدم جذب بازاریاب از بین افراد کمتر ازهجده سال سن
+                                    </li>
+                                    <li class="lh-lg">
+                                        ممنوعیت بکارگیری بازاریابان از بین کارکنان شرکت بازاریابی شبکه ای و دستگاه ها ونهادهای
+دارای مسئولیت نظارت بر شرکت های بازاریابی شبکه ای
+                                    </li>
+                                    <li class="lh-lg">
+                                        برگزاری کلیه جلسات بازاریابان در دفتر و یا شعب شرکت
+                                    </li>
+                                    <li class="lh-lg">
+                                        برگزاری رایگان دوره آموزشی مشتمل بر آموزش فرآیند و مفاهیم بازاریابی شبکه ای و منشور
+اخلاقی شرکت با مشارکت بازاریابان سطوح بالاتر، برای سایر بازاریابان و ارائه محتوای دوره های
+آموزشی به دبیرخانه کمیته نظارت برای تطبیق بامقررات
+                                    </li>
+                                    <li class="lh-lg">
+                                        پرهیز از هرگونه اغواگری و تبلیغ خلاف واقع برای جذب بازاریاب و یا درباره محصولات شرکت
+                                    </li>
+                                    <li class="lh-lg">
+                                        فروش مستقیم محصولات به بازاریاب و منع فروش از طریق بازاریاب به بازاریاب دیگر
+                                    </li>
+                                    <li class="lh-lg">
+                                        عدم تشویق بازاریابان به خرید محصولات بیش از توان فروش و یا مصرف شخصی
+                                    </li>
+                                    <li class="lh-lg">
+                                        انجام تمامی پرداختها در قالب حق کمیسیون و پاداش به بازاریابان مطابق باطرح سوددهی.
+                                    </li>
+                                    <li class="lh-lg">
+                                        میزان فروش ماهیانه محصولات به بازاریابان برای واجد شرایط شدن دریافت حق کمیسیون و
+پاداش،باید در صورت انبار شدن کالا نزد بازاریاب قابل تعدیل باشد
+                                    </li>
+                                    <li class="lh-lg">
+                                        پرداخت حق کمیسیون بازاریاب انصرفا ً براساس فروش محصولات و درازای مشارکت جمعی
+سطوح بالاتر در جذب و آموزش بازاریابان جدید، نه عضوگیری
+                                    </li>
+                                    <li class="lh-lg">
+                                        انجام تمامی تراکنشهای مالی (ازقبیل خرید، فروش و پرداخت حق کمیسیون و پاداش) از
+طریق سیستم بانکی کشور به نام شرکت
+                                    </li>
+                                    <li class="lh-lg">
+                                        ارائه کلیه اطلاعات مربوط به عملیات بازاریاب نظیر میزان فروش شخصی و میزان فروش گروهی
+به صورت ماهیانه به وی
+                                        <p><strong>تبصره-</strong>شرکت موظف است کلیه اطلاعات مربوط به عملیات بازاریابها و سوابق پرداختها را برابر
+                                            مقررات مستندسازی کند</p>
+                                    </li>
+                                    <li class="lh-lg">
+                                        ایجاد درگاهی برای رسیدگی به شکایات ونارضایتی ها با قابلیت ثبت در پایگاه دادهه ای
+شرکت و ارائه کدرهگیری و پاسخگویی به شکایات(حداکثر به مدت ده روز)
+                                    </li>
+                                    <li class="lh-lg">
+                                        باز پس گرفتن محصولات فروخته شده که قابل فروش مجدد است مطابق شرایط قرارداد فیمابین
+شرکت و بازاریاب
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <strong class="d-block py-2">
+                                    ماده11-
+                                </strong>
+                                <p class=" lh-lg">
+                                    شرکت میتواند اقدام به تاسیس شعبه نزد مرجع ثبت شرکت هانموده در اینصورت
+مکلف است برای تاسیس شعب مدارک لازم شامل:سند مالکیت یا اجاره نامه وگواهی صلاحیت
+شخصی مسئول شعبه (فردی غیر بازاریاب) وانتظامی و ترافیکی شعبه رابه دبیرخانه کمیته نظارت
+ارائه نماید.
+                                </p>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <strong class="d-block py-2">
+                                    ماده12-
+                                </strong>
+                                <p class="lh-lg">
+                                    شرکت بازاریابی شبکه ای مکلف است درصورت انحلال طبق قانون تجارت به نحوی عمل
+نمایدکه تعهدات خود را در قبال محصولات خریداری شده توسط بازاریابان و مصرف کنندگان انجام
+دهد و حداکثر ظرف مدت پانزده روز پس ازاعلام انحلال پروانه کسب خود را جهت ابطال به اتحادیه تحویل نماید.
+                                </p>
+                                <strong class="d-block py-2">
+                                    تبصره1-
+                                </strong>
+                                <p class="lh-lg">
+                                    درصورت ابطال پروانه کسب، شرکت موظف است با رعایت تشریفات قانونی حسب مورد
+نسبت به انحلال شرکت و یا تغییر موضوع فعالیت شرکت اقدام کند.
+                                </p>
+                                <strong class="d-block py-2">
+                                    تبصره2-
+                                </strong>
+                                <p class="lh-lg">
+                                    در صورت اعلام توقف شرکت، پروانه کسب تعلیق و در صورت صدور حکم ورشکستگی،
+پروانه کسب ابطال می گردد
+                                </p>
+                            </div>
+                            <div class="sub-title ps-3">
+                                <div class="py-3">
+                                    <strong class="d-block py-3">
+                                        ماده13-عناوین تخلفات ونحوه برخورد با مرتکبین آن
+                                    </strong>
+                                    <p class="lh-lg">
+                                        مجازات های بندهای (الف)، (ب) و (ج) این ماده درصورت ارتکاب هر یک از تخلفات ذیل آن، از سوی
+کمیته نظارت اتخاذ می گردد
+                                    </p>
+                                </div>
+                                <div class="py-3">
+                                    <strong class="d-block py-3">
+                                        الف)-اخطار کتبی
+                                    </strong>
+                                    <ol class="ps-3">
+                                        <li class="lh-lg">
+                                            عدم پرداخت حق کمیسیون به صورت ماهیانه
+                                        </li>
+                                        <li class="lh-lg">
+                                            تشویق به خرید محصول بیش از توان فروش و یا مصرف شخصی
+                                        </li>
+                                        <li class="lh-lg">
+                                            تعیین حجم خرید مشخصی از سبد کالا(استراتژی فروش)
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم برگزاری آموزش رایگان برای بازاریابان
+                                        </li>
+                                        <li class="lh-lg">
+                                            جذب بازاریاب از بین افراد کمتر ازهجده سال
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم انعقاد قرارداد بین شرکت و بازاریابان
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم صدور کارت شناسایی عکس داربرای بازاریابان
+                                        </li>
+                                        <li class="lh-lg">
+                                            پرداخت حق کمیسیون وپاداش از محصولات شرکت
+                                        </li>
+                                        <li class="lh-lg">
+                                            رعایت نکردن تعهدات موضوع قرارداد ازجمله تاخیر در ارسالو بازپسگیری کالا.
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم درج مقررات مربوط به بازاریابی شبکه ای و طرح سوددهی درسامانه شرکت.
+                                        </li>
+                                        <li class="lh-lg">
+                                            تغییر مفاد اساسنامه بدون هماهنگی بادبیرخانه کمیته نظارت
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم رعایت قانون و مقررات صنفی وتصمیمات کمیته نظارت
+                                        </li>
+                                        <li class="lh-lg">
+                                            تشکیل جلسات در خارج از محل شعب
+                                        </li>
+                                        <li class="lh-lg">
+                                            تبلیغ خلاف واقع درباره محصولات و طرح سوددهی.
+                                        </li>
+                                        <li class="lh-lg">
+                                            تاسیس شعب غیر مجاز
+                                        </li>
+                                    </ol>
+                                    <p class="lh-lg">
+                                        <strong>تبصره1-</strong>درصورت ارتکاب تخلفات فوق،علاوه بر اخطار،به تشخیص کمیته نظارت محدودیت هایی
+                                        نظیرعدم راه اندازی شعب وعرضه محصولات جدیدتازمان اصلاح عملکردشرکت و تطبیق آن
+                                        با مقررات اعمال خواهد شد
+                                    </p>
+                                    <p class="lh-lg">
+                                        <strong>تبصره2-</strong>پس از ابلاغ اخطار، شرکت موظف است ظرف مدت بیست روز نسبت به اصلاح عملکرد
+                                        اقدام نماید.در غیر اینصورت نسبت به تعلیق و تغییر رنگ نماد به زرد اقدام خواهد شد.  
+                                    </p>
+                                </div>
+                                <div class="py-3">
+                                    <strong class="d-block py-3">ب)-تعلیق و تغییر رنگ نماد به زرد</strong>
+                                    <ol class="ps-3">
+                                        <li class="lh-lg">
+                                            اخذ هرگونه وجه یا ما به ازاءبرای ورود به شرکت بازاریابی شبکه ای.
+                                        </li>
+                                        <li class="lh-lg">
+                                            انجام عملیات مالی و پرداخته ای شرکت خارج از سیستم بانکی
+                                        </li>
+                                        <li class="lh-lg">
+                                            تغییر طرح سوددهی بدون کسب مجوز
+                                        </li>
+                                        <li class="lh-lg">
+                                            فروش محصولات خارج ازفهرست دبیرخانه کمیته و یا عرضه محصولات فاقد مجوزلازم نظیر
+پروانه بهداشتی و استانداردحسب مورد.
+                                        </li>
+                                        <li class="lh-lg">
+                                            تکرارو یا تعدد دفعات ارتکاب تخلفات مندرج در بند(الف)برای مرتبه سوم درطول یک سال مالی
+                                        </li>
+                                        <li class="lh-lg">
+                                            ارتکاب تخلف درتبصره های بند(الف)
+                                        </li>
+                                    </ol>
+                                    <p class="lh-lg">
+                                        <strong>تبصره</strong>
+                                        مدت تعلیق سه ماه خواهدبود؛درصورتی که بعد از گذشت یک ماه از دوره تعلیق، شرکت
+نسبت به اصلاح عملکرد و تطبیق آن با مقررات اقدام کرد،تعلیق خاتمه مییابد.
+                                    </p>
+                                </div>
+                                <div class="py-3">
+                                    <strong class="d-block py-3">
+                                        ج)-ابطال پروانه کسب و تغییر رنگ نماد به قرمز
+                                    </strong>
+                                    <ol class="ps-3">
+                                        <li class="lh-lg">
+                                            عدم اصلاح عملکرد در دوره مدت تعلیق.
+                                        </li>
+                                        <li class="lh-lg">
+                                            تکرار یا تعدد دفعات ارتکاب تخلفات مندرج در بند(ب)در طول یک سال مالی
+                                        </li>
+                                        <li class="lh-lg">
+                                            انحلال شرکت
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم فعالیت شرکت به مدت حداقل شش ماه
+                                        </li>
+                                        <li class="lh-lg">
+                                            عدم تمدید پروانه کسب پس از انقضای مدت اعتبار آن پس از اخطار یک ماهه اتحادیه
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="py-3 lh-lg">
+                                    <strong>ماده14-</strong>
+                                    فرد صنفی میتواند اعتراض خود را به تعطیلی واحد صنفی ظرف مدت پانزده روز پس از
+ابلاغ، به دبیرخانه هیات عالی نظارت تسلیم کند. دبیرخانه موظف است شکایت شاکی را ظرف مدت
+پانزده روز مطابق مقررات مورد رسیدگی قرار دهد
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">شرکت بازاریابی شبکهای</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                شخص حقوقی است که محصولات تولید خود یا شرکت مادر (دارنده بیش از ۵۰ درصد سهام و سرمایه) را به روش بازاریابی شبکه ای به فروش میرساند
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">بازاریاب</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                شخصی است که خارج از شرکت بازاریابی شبکه ای در قالب قرارداد فی مابین از
+طریق فروش مستقیم محصولات به مصرفکننده ویابا حمایت و آموزش بازاریابان زیر مجموعه
+بابت گسترش و افزایش فروش شرکت، مبالغ مشخصی را در قالب طرح سوددهی دریافت کند.
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">طرح سوددهی</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                برنامه شرکت برای محاسبه وپرداخت درصدی از فروش محصولات در
+قبال فروش شخصی و جذب، آموزش، مدیریت و راهبری گروه فروش به عنوان سود و حق
+کمیسیون و یا پاداش بازاریاب است
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">مصرف کننده</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                هر شخصی که در ازای پرداخت وجه با هدف غیرتجاری و صرفا ً برای مصرف
+خود مبادرت به خریدمحصول نماید
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">محصولات مصرفی</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                کالا وخدمات مورد عرضه در بازاریابی شبکه ای که در سبد مصرف
+قشر وسیعی از جامعه قراردارد،چندبار در سال توسط مصرف کنندگان تجدید خرید میشودو
+مشابه آن در بازار وجود دارد
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">اتحادیه</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                اتحادیه کشوری که از واحدهای صنفی موضوع این آیین نامه براساس تبصره (8)
+ماده(22)قانون نظام صنفی تشکیل میشود                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">کمیته نظارت</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                کمیته نظارت موضوع ماده (20) این آیین نامه                       
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">نماد اعتماد الکترونیکی</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                نشانه ای است که توسط مرکز توسعه تجارت الکترونیکی برابر
+مقررات به کسب و کارهای مجازی با هدف ساماندهی، احراز هویت و صلاحیت آنهابطورهمزمان با
+صدور پروانه کسب اعطا میگردد
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5">نماد بازاریابی شبکه ای</strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                نشانه پروانه کسب است که توسط مرکز اصناف و بازرگانان ایران
+برابر مقررات به وب سایت شرکتهای بازاریابی شبکهای به منظور ساماندهی، احراز هویت و
+صلاحیت آنهابطورهمزمان با صدور پروانه کسب اعطا میگردد
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5"> سامانه اصناف </strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                سامانه الکترونیکی صدور پروانه کسب اصناف (به نشانی:iranianasnaf.ir)
+                            </p>
+                        </div>
+                        <div class="item py-3">
+                            <div class="title">
+                               <strong class="fs-5"> سامانه اینماد </strong> 
+                            </div>
+                            <p class="lh-lg pt-2">
+                                سامانه الکترونیکی اعطا نمادالکترونیکی(به نشانی:enamad.ir)
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 col-lg text-center">
+                    <a href="">
+                        <img src="assets/images/qnet-logo-colour.png" class="w-100" alt="">
+                    </a>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h4 class="text-white py-2">Our Company</h4>
+                    <ul>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h4 class="text-white py-2">Our Company</h4>
+                    <ul>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h4 class="text-white py-2">Our Company</h4>
+                    <ul>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h4 class="text-white py-2">Our Company</h4>
+                    <ul>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h4 class="text-white py-2">Our Company</h4>
+                    <ul>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                        <li class="py-2">
+                            <a href="" class="text-decoration-none text-secondary">About QNET</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg text-center">
+                    <h4 class="text-white py-2 text-center">Follow Us</h4>
+                    <div class="row">
+                        <div class="col-2 col-lg-4 text-center py-2">
+                            <a href="" class="text-decoration-none text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col-2 col-lg-4 text-center py-2">
+                            <a href="" class="text-decoration-none text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col-2 col-lg-4 text-center py-2">
+                            <a href="" class="text-decoration-none text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col-2 col-lg-4 text-center py-2">
+                            <a href="" class="text-decoration-none text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col-2 col-lg-4 text-center py-2">
+                            <a href="" class="text-decoration-none text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col-2 col-lg-4 text-center py-2">
+                            <a href="" class="text-decoration-none text-secondary">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copy-right py-3">
+            <p class="text-center text-secondary  fs-6">COPYRIGHT © 2020 QNET LTD. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/flickity/flickity.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/javascript/scripts.js"></script>
+</body>
+
+</html>
